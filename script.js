@@ -30,7 +30,7 @@ recognition.onresult = function(event) {
     // Simple logic for responses
     let response = '';
     if (userInput.includes('hello')) {
-        response = 'Hello! How can I assist you today?';
+        response = 'Hello Mr Sunil Baraiya?';
     } else if (userInput.includes('your name')) {
         response = 'I am your virtual assistant!';
     } else if (userInput.includes('how are you')) {
